@@ -21,6 +21,9 @@ img {
   margin: auto;
 }
 
+ol {
+list-style-type: none;
+}
 /* Remove defaults from navigation */
 
 nav ul {
@@ -111,6 +114,18 @@ nav ul {
   display: grid;
   grid-template-columns: auto;
   gap: 1rem;
+}
+
+.two-column-grid {
+  display:grid;
+  grid-template-columns: 500px 500px;
+  gap: 20px;
+}
+
+.four-column-grid__expand-two {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 1fr;
+  
 }
 /* Header Styles */
 
@@ -220,7 +235,7 @@ h1 {
 .icon {
   width: 48px;
   height: 48px;
-  border: 2px solid blue;
+  
 }
 
 .cards h3 {
@@ -250,4 +265,22 @@ h1 {
 .icons {
   width: 30px;
   float:left;
+}
+
+.list-padding {
+  margin-right: 0px;
+}
+
+
+.padding-inline-start {
+  padding-inline-start: 0px;
+}
+
+.spacing {
+  line-height: 40px;
+}
+
+.footer-left img {
+float: left;
+margin: 0px;
 }
